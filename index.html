@@ -1,9 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
+        <h1>Page to read data from influxDB</h1>
+        <div id="login">
+            <h3>Enter your Log in information</h3>
+            <div id="token-wrap">
+                <p>Enter your token</p>
+                <input id="TOKEN" type="text" placeholder="kajhduhOUIH"/>
+            </div>
+            <button id="ready">Update</button>
+        </div>
+        <div id="result">
+            <h3>Data Points:</h3>
+            <div id="data-wrapper">
+            </div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
